@@ -1,0 +1,43 @@
+html, body{
+margin: 0 auto; /*makes sure there's no margin around the body*/
+}
+
+.lineOne{
+	height: 15vh;
+	width: 100%;
+	background: darkslategrey;
+}
+.lineTwo{
+	height: 25vh;
+	width: 100%;
+	background: white;
+}
+.lineThree{
+	height: 15vh;
+	width: 100%;
+	background: lightgreen;
+}
+.lineFour{
+	height: 15vh;
+	width: 100%;
+	background: limegreen;
+}
+.lineFive{
+	height: 15vh;
+	width: 100%;
+	background: darkslategrey;
+}
+.lineSix{
+	height: 15vh;
+	width: 100%;
+	background: limegreen;
+}
+.boxOne{
+    height: 10vh;
+    width: 10vw;
+    margin-left: 3vh;
+    margin-top: 3vh;
+    background: black;
+    position: absolute;
+    top: 0;
+}

@@ -1,0 +1,33 @@
+html, body{
+	width: 100%;
+	height: 100%; /*no matter what I set the px to the height doesn't change physically*/
+	margin: 0 auto; /*makes sure there's no margin around the body*/
+}
+.bar-left{
+	height: 100vh;
+	width: 33.3333%;
+	background: darkslategrey;
+	position: absolute;
+	float: left;
+}
+.bar-middle{
+	height: 100vh;
+	width: 33.3333%;
+	background: lawngreen;
+	position: absolute;
+	margin-left: 33.33333%;
+}
+.bar-right{
+	height: 100vh;
+	width: 33.3333%;
+	background: lightgreen;
+	float: right;
+}
+.box-bottom-right{
+	height: 200px;
+	width: 33.3333%;
+	background: limegreen;
+	margin-left: 66.6666%;
+	position: absolute;
+	bottom:0;
+}
